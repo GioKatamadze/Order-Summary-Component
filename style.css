@@ -1,0 +1,192 @@
+  @media screen and (min-width: 375px) {
+    html {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url(https://cdn.glitch.global/ee8dedd3-cecf-4a18-8a8e-55d9774f21af/pattern-background-desktop.svg?v=1663698007638), linear-gradient(#F2F2F2, #D6E1FF);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .card-wrapper {
+    background-color: #FFFFFF; 
+    margin: 0px 24px 0px 24px;
+    width: 327px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 40px 40px -20px #0D30BD27;
+  }
+  
+  .blue-image {
+    border-radius: 20px 20px 0px 0px;
+    width: 327px;
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 22px;
+    color: #1F2E55;
+    padding: 32px 32px 16px 32px;
+  }
+  
+  .description {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 0px 32px 0px 32px;
+    color: #717FA6;
+  }
+
+  br {
+    display: none;
+  }
+  
+  .button {
+    background-color: #382AE1;
+    color: #FFFFFF;
+    width: auto;
+    font-weight: 900;
+    font-size: 15px;
+    margin: 24px 24px 24px 24px;
+    padding: 0;
+    height: 50px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-color: #766CF1;
+  }
+  
+  
+  .cancel {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 15px;
+    color: #717FA6;
+    padding-bottom: 32px;
+    text-decoration: none;
+    transition: 0.3s;
+    width: auto;
+  }
+  
+  .cancel:hover {
+    cursor: pointer;
+    color: #1F2E55;
+  }
+  
+   .price-container {
+    border-radius: 11px;
+    max-width: 354px;
+    background-color: #F7F9FF;
+    display: flex;
+    align-items: center;
+    height: 98px;
+    justify-content: space-between;
+    margin: 24px;
+    padding: 0px 16px 0px 16px;
+  }
+  
+  .annual-price {
+    padding:21px 68px 21px -20px;
+    text-align: left;
+    margin-left: -30px;
+  }
+  
+  .annual {
+    font-weight: 900;
+    font-size: 14px;
+    color: #1F2E55;
+    margin-bottom: 6px;
+  }
+  
+  .price {
+    font-weight: 500;
+    font-size: 14px;
+    color: #717FA6;
+  }
+  
+  .change {
+    font-weight: 700;
+    font-size: 13px;
+    color: #382AE1;
+    transition: 0.3s;
+  }
+  
+  .change:hover {
+    color: #766CF1;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 500px) {
+    .card-wrapper, .blue-image {
+        width: 450px;
+    }
+
+    h1 {
+        margin: 45px 48px 17px 48px;
+        font-size: 28px;
+    }
+
+    .description {
+        margin: 0px 48px 20px 48px;
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .price-container {
+        margin: 0 48px 37px 48px;
+        padding: 25px 24px 25px 24px;
+        height: 81px;
+    }
+
+    .button {
+        margin: 0 48px 37px 48px;
+        padding: 15px auto 15px auto;
+        font-size: 15px;
+    }
+
+    .cancel {
+        margin-bottom: 48px;
+        font-size: 15px;
+    }
+
+    .cancel, h1 {
+        padding: 0;
+    }
+
+    .price-container {
+        padding: 0 24px 0 24px;
+    }
+
+    .annual-price {
+        margin-left: -65px;
+    }
+
+    .annual {
+        margin-bottom: 6px;
+    }
+
+    .annual, .price {
+        font-size: 16px;
+    }
+
+    .change {
+        font-size: 14px;
+    }
+}
